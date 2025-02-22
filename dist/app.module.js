@@ -17,6 +17,7 @@ const job_opportunity_module_1 = require("./job-opportunity/job-opportunity.modu
 const mentorship_module_1 = require("./mentorship/mentorship.module");
 const engagement_score_module_1 = require("./engagement-score/engagement-score.module");
 const config_1 = require("@nestjs/config");
+const course_module_1 = require("./course/course.module");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -39,6 +40,7 @@ exports.AppModule = AppModule = __decorate([
             job_opportunity_module_1.JobOpportunityModule,
             mentorship_module_1.MentorshipModule,
             engagement_score_module_1.EngagementScoreModule,
+            course_module_1.CourseModule,
         ],
     })
 ], AppModule);

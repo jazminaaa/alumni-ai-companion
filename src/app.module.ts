@@ -8,6 +8,7 @@ import { JobOpportunityModule } from './job-opportunity/job-opportunity.module';
 import { MentorshipModule } from './mentorship/mentorship.module';
 import { EngagementScoreModule } from './engagement-score/engagement-score.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
+import { CourseModule } from './course/course.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
     JobOpportunityModule,
     MentorshipModule,
     EngagementScoreModule,
+    CourseModule,
   ],
 })
 export class AppModule {}

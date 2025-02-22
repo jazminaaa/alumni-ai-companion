@@ -7,4 +7,5 @@ export declare class CreateUserDto {
     skills: string[];
     interests: string[];
     careerGoals: string[];
+    token: string;
 }
